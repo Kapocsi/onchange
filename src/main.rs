@@ -5,7 +5,6 @@ use std::time::Duration;
 fn main() -> Result<(), ()> {
     let mut old_file: Vec<u8> = Vec::new();
     let mut first_run = true;
-    dbg!(&old_file);
     loop {
         let args: Vec<String> = args().collect();
 
